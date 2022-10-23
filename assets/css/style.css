@@ -158,7 +158,8 @@ nav ul li a:hover::after{
 /* ------------------------------ Service Part -------------------------------------- */
 
 #services{
-    padding: 40px 0;
+    margin-top: 40px;
+    padding: 50px 0;
 }
 .services-list{
     display: grid;
