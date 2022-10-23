@@ -1,0 +1,235 @@
+
+/* ---------------------- For Extra Small Screen ------------------------ */
+@media only screen and (max-width: 575px) {
+    #header{
+        background-image: url(../images/small-phone-bg.jpg);
+        background-position: 50% 30%;
+    }
+    .logo{
+        width: 100px;
+        margin-top: -6px;
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 22px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background-color: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 30px;
+    }
+    nav ul li:hover{
+        background-color: #433c43;
+        padding: 10px;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+    }
+    /*  about part  */
+    .sub-title{
+        font-size: 30px;
+    } 
+    .about_column_1, .about_column_2 {
+        flex-basis: 100%;
+    }
+    .about_column_1 {
+        margin-bottom: 30px;
+    }
+    .about_column_2 {
+        font-size: 14px;
+    }
+    .tab-links {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+    /* ---------------- Service part------------ */
+
+    .services-list div h2{
+        font-size: 25px;
+    }
+
+    /* Contact part */
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .footer{
+        font-size: 12px;
+    }
+}
+
+
+/*  --------------- For Small Screen (sm) ---------------------- */
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* ---------------- navigation ------------------ */
+    #header{
+        /* background-size: contain;
+        background-repeat: no-repeat; */
+        background-position: 75% 100%;
+    }
+    nav{
+        height: 20vh;
+        display: block;
+    }
+    nav img{
+        display: block;
+        margin: auto;
+    }
+    nav ul{
+       text-align: center;
+    }
+    nav ul li {
+        margin: 10px;
+    }
+
+
+    /* ---------------------- home --------------------- */
+    .header-text{
+        margin-top: 65%;
+        font-size: 25px;
+    }
+    .header-text h1{
+        margin-top: 20px;
+        font-size: 38px;
+    }
+
+
+    /* ---------------- about --------------------- */
+    .sub-title{
+        font-size: 50px;
+    } 
+    .about_column_1, .about_column_2 {
+        flex-basis: 100%;
+    }
+    .about_column_1 {
+        margin-bottom: 30px;
+    }
+    .about_column_2 {
+        font-size: 14px;
+    }
+    .tab-links {
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    /*  -------------------- Contact ---------------------- */
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+}
+
+
+/*  --------------- For Medium Screen (md) ---------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ---------------- navigation -------------------- */
+    nav ul li {
+        margin: 12px;
+    }
+
+    .header-text{
+        margin-top: 50%;
+    }
+    .header-text h1{
+        font-size: 40px;
+    }
+
+    /* ------------------------- about ----------------- */
+    .sub-title{
+        font-size: 40px;
+    }
+    .about_column_1 {
+        flex-basis: 48%;
+    }
+    .about_column_1 img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .about_column_2 {
+        flex-basis: 50%;
+    }
+    .tab-title{
+        margin: 20px 0 25px;
+    }
+    .tab-links {
+        margin-right: 25px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    /* ------------------ Contact --------------- */
+    .contact-left{
+        flex-basis: 45%;
+    }
+    .con-left-h1{
+        font-size: 40px !important;
+    }
+    .contact-right{
+        flex-basis: 50%;
+    }
+}
+
+/*  --------------- For Large Screen (lg) ---------------------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* ---------------- navigation -------------------- */
+    .header-text{
+        margin-top: 40%;
+    }
+
+    /* ------------------------- about ----------------- */
+    .about_column_1 {
+        flex-basis: 45%;
+    }
+    .about_column_2 {
+        flex-basis: 50%;
+    }
+    /* ------------------ Contact --------------- */
+    .contact-left{
+        flex-basis: 40%;
+    }
+    .con-left-h1{
+        font-size: 45px !important;
+    }
+    .contact-right{
+        flex-basis: 55%;
+    }
+}
+
+
+/*  --------------- For Extra Large Screen (xl) ---------------------- */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .header-text{
+        margin-top: 30%;
+        font-size: 28px;
+    }
+    .header-text h1{
+        font-size: 50px;
+    }
+}
+
+
+/*  --------------- For Large Extra Large Screen (xxl) ---------------------- */
+@media (min-width: 1400px) {
+    /* I already made for this screen by deafult */
+}
